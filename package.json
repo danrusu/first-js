@@ -1,0 +1,16 @@
+{
+  "name": "first-js",
+  "version": "1.0.0",
+  "description": "Demo JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "": "node src/test.js",
+    "abc": "node src/test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "2.4.0"
+  }
+}
