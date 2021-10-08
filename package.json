@@ -4,13 +4,17 @@
   "description": "Demo JavaScript",
   "main": "index.js",
   "scripts": {
-    "": "node src/test.js",
-    "abc": "node src/test.js"
+    "demo": "node src/test.js",
+    "dev": "npx cypress open",
+    "test": "npx cypress run --browser chrome"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "cypress": "^8.5.0",
+    "mocha": "^9.1.2",
+    "mocha-junit-reporter": "^2.0.0",
     "prettier": "2.4.0"
   }
 }

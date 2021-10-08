@@ -1,0 +1,22 @@
+{
+  "projectId": "cypress-poc",
+  "baseUrl": "http://qatools.ro",
+  "env": {
+    "apiUrl": "/api",
+    "store": "GB"
+  },
+  "chromeWebSecurity": false,
+  "viewportHeight": 1200,
+  "viewportWidth": 1920,
+  "numTestsKeptInMemory": 0,
+  "reporter": "mocha-junit-reporter",
+  "reporterOptions": {
+    "mochaFile": "cypress/reports/[hash].xml",
+    "toConsole": true
+  },
+  "video": false,
+  "retries": {
+    "runMode": 0,
+    "openMode": 0
+  }
+}
